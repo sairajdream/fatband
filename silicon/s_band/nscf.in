@@ -1,0 +1,43 @@
+ &CONTROL
+   calculation     =  'nscf'
+   max_seconds     =  82800
+   nstep           =  250
+   outdir          =  '../tmp'
+   prefix          =  silicon
+   pseudo_dir      =  '/home/u148996/espresso/pseudo/'
+   restart_mode    =  'from_scratch'
+   verbosity       =  'high'
+ /
+
+ &SYSTEM
+   celldm(1)       =  10.2
+   degauss         =  0.01
+   ecutrho         =  400
+   ecutwfc         =  40
+   ibrav           =  2
+   nat             =  2
+   nbnd            =  12
+   ntyp            =  1
+   occupations     =  'tetrahedra'
+   smearing        =  'mv'
+ /
+
+ &ELECTRONS
+   conv_thr        =  1e-9
+   electron_maxstep =  1000
+   mixing_beta     =  0.3
+ /
+
+ATOMIC_SPECIES 
+  Si   28   Si.pbesol-n-rrkjus_psl.1.0.0.UPF 
+
+
+ATOMIC_POSITIONS crystal
+  Si      -0.250000000000   0.750000000000  -0.250000000000
+  Si       0.000000000000   0.000000000000   0.000000000000
+
+K_POINTS automatic
+  12   12   12   0   0   0 
+
+
+

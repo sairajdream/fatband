@@ -1,0 +1,10 @@
+ &PROJWFC
+   DeltaE          =  0.1
+   degauss         =  0.005
+   filproj         =  'silicon.proj'
+   ngauss          =  0
+   outdir          =  '../tmp'
+   prefix          =  silicon
+ /
+
+

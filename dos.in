@@ -1,0 +1,7 @@
+ &DOS
+   fildos          =  'dos.dat'
+   outdir          =  '../tmp'
+   prefix          =  silicon
+ /
+
+

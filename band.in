@@ -1,0 +1,7 @@
+ &BANDS
+   filband         =  'bands.dat'
+   outdir          =  '../tmp'
+   prefix          =  silicon
+ /
+
+

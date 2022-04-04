@@ -4,6 +4,7 @@ The following instruction is written with the help of [bryanalchemist fatband in
 
 **Cons:** More time consuming than bryanalchemist fatband instruction.
 
+### Example-1 Silicon fatband with pdos
 ### To plot Fatband with DOS we need to do following calculations.
 1. scf calculations
 	```

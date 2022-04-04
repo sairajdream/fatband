@@ -2,7 +2,7 @@ The following instruction is written with the help of [bryanalchemist fatband in
 
 **Pros :** You can plot the fatband along with pdos.
 
-**Cons:** More time consuming then bryanalchemist fatband instruction.
+**Cons:** More time consuming than bryanalchemist fatband instruction.
 
 ### To plot Fatband with DOS we need to do following calculations.
 1. scf calculations
